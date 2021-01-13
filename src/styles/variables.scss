@@ -1,0 +1,79 @@
+// base color
+$blue:#324157;
+$light-blue:#3A71A8;
+$red:#C03639;
+$pink: #E65D6E;
+$green: #30B08F;
+$tiffany: #4AB7BD;
+$yellow:#FEC171;
+$panGreen: #30B08F;
+
+// sidebar
+$menuText:#bfcbd9;
+$menuActiveText:#409EFF;
+$subMenuActiveText:#f4f4f5;
+
+$menuBg:#304156;
+$menuHover:#263445;
+
+$subMenuBg:#1f2d3d;
+$subMenuHover:#001528;
+
+$sideBarWidth: 210px;
+
+// --------- default.scss
+$bg: #fff;
+$inputHover: #ff9000;
+$inputColor: #73777A;
+$color: #212529;
+$bgPrimary: #007bff;
+$bgPrimaryFocus: #0062cc;
+$bgSecondary: #6c757d;
+$bgSecondaryFocus: #545b62;
+$bgSuccess: #28a745;
+$bgSuccessFocus: #1e7e34;
+$bgInfo: #17a2b8;
+$bgInfoFocus: #117a8b;
+$bgWarning: #ffc107;
+$bgWarningFocus: #d39e00;
+$bgDanger: #dc3545;
+$bgDangerFocus: #bd2130;
+$bgLight: #f8f9fa;
+$bgLightFocus: #dae0e5;
+$bgDark: #343a40;
+$bgDarkFocus: #1d2124;
+$bgInput: #ff9000;
+$bgInputFocus: #ff9000;
+$bgWhite: #fff;
+$borderColor: #d7d8d9;
+
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+  bg: $bg;
+  color: $color;
+  bgPrimary: $bgPrimary;
+  bgPrimaryFocus: $bgPrimaryFocus;
+  bgSecondary: $bgSecondary;
+  bgSecondaryFocus: $bgSecondaryFocus;
+  bgSuccess: $bgSuccess;
+  bgSuccessFocus: $bgSuccessFocus;
+  bgInfo: $bgInfo;
+  bgInfoFocus: $bgInfoFocus;
+  bgWarning: $bgWarning;
+  bgWarningFocus: $bgWarningFocus;
+  bgDanger: $bgDanger;
+  bgDangerFocus: $bgDangerFocus;
+  bgLight: $bgLight;
+  bgLightFocus: $bgLightFocus;
+  bgDark: $bgDark;
+  bgDarkFocus: $bgDarkFocus;
+  bgWhite: $bgWhite;
+  borderColor: $borderColor;
+}

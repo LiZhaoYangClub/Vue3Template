@@ -1,0 +1,66 @@
+// 修改input的默认样式
+input:-webkit-autofill,
+textarea:-webkit-autofill, 
+select:-webkit-autofill {
+	-webkit-text-fill-color: #73777A !important;
+	-webkit-box-shadow: 0 0 0px 1000px transparent  inset !important;
+        background-color:transparent;
+        background-image: none;
+         transition: background-color 50000s ease-in-out 0s; /*背景色透明  生效时长  过渡效果  启用时延迟的时间*/
+}
+input {
+	 background-color:transparent;
+}
+
+// 菜单样式
+.scrollbar-wrapper{
+  .el-scrollbar__view{
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .hide-title{
+    visibility: hidden;
+  }
+}
+.item-router{
+  // display: flex;
+  height: 56px;
+  .svg-icon{
+    font-size: 24px;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+}
+a{
+  text-decoration: none;
+}
+.hide-arrow ~.el-submenu__icon-arrow{
+  visibility: hidden;
+}
+
+/* fade */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.28s;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+/* fade-transform */
+.fade-transform-leave-active,
+.fade-transform-enter-active {
+  transition: all .5s;
+}
+
+.fade-transform-enter {
+  opacity: 0;
+  transform: translateX(-30px);
+}
+
+.fade-transform-leave-to {
+  opacity: 0;
+  transform: translateX(30px);
+}
